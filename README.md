@@ -22,9 +22,9 @@ drug and drug–food interactions. Proceedings of the national academy of scienc
 . The datasets are placed in the ./data/86datasets folder. The details are as follows:
 * 86smiles.csv：includes the drug ids, DeepDDI index, index.
 * DDI_event.csv:includes all types of the ddi events.
-* S0: includes the training and validation datasets based on 5-fold cross-validation split in the S0 setting.
-* S1: includes the training and validation datasets based on 5-fold cross-validation split in the S1 setting.
-* S2: includes the training and validation datasets based on 5-fold cross-validation split in the S2 setting.
+* S0 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S0 setting.
+* S1 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S1 setting.
+* S2 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S2 setting.
 
 In addition, we extract four types of multimodal structural features for individual drugs, including traditional Morgan and PubChem fingerprints, features extracted by the MolFormer model, and atomic-level features. These multimodal structural features are placed in the ./data/drugfeatures folder. The details are as follows:
 * drugs1559_morgen86.npy: Morgan fingerprint features.
