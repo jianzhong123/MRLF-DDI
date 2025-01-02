@@ -34,17 +34,16 @@ In addition, we extract four types of multimodal structural features for individ
   
 ## Files:
 The source code files are in the ./codes folder. The details are as follows:
-* S0data_helper.py: Construct the DDI event graph using the training dataset in the S0 setting.
-* data_helper.py： Construct the DDI event graph using the training dataset in the S1 and S2 settings.
-* dataloader.py: Knowledge graph, training and test data sets are loaded and parsed, and a drug-drug bipartite graph is constructed.
-* crossModel.py: The implementation of thecross strategy base on the drug pairs.
-* SEmodel.py: The implementation of SE-GNN based on the DDI event graph.
+* cross5_S0_data_helper.py: constructs the DDI event graph using the training dataset in the S0 setting.
+* cross5_S1_data_helper.py, gridsearch_S2_data_helper.py： construct the DDI event graph using the training dataset in the S1 and S2 settings.
+* gridsearch_crossModel.py: extracts the cross-features base on the drug-drug pairs.
+* gridsearch_SEmodel.py: extracts the graph-based features from the DDI event graph.
   
 ## Running the code
 
 The parameters are already set in the code files. You can run the following command to re-implement our work:
 
-* > python train_S0_86.py #train_S1_86.py,train_S2_86.py
+* > python Gridsearch_cross5_final_train_S0_86.py #Gridsearch_cross5_final_train_S1_86.py, Gridsearch_cross5_final_train_S2_86.py
 
 ## Contact
 
