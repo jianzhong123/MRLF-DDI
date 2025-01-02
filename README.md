@@ -4,7 +4,7 @@
 
 This repository contains source code for our paper "MGFF-DDI: A Multi-granularity Feature Fusion Framework for Drug-Drug Interaction Event Prediction via Multi-Relational GNN and Cross Strategy".
 
-In this paper, we propose a new framework named MGFF-DDI, which fuses multi-granularity features by constructing a multi-relational network for DDI and introducing a cross-strategy. 
+In this paper, we propose a new framework named MGFF-DDI, which integrates multi-granularity features derived from individual drugs, drug-drug pairs, and the DDI event graph to improve the accuracy of DDI event prediction. 
 
 ## Requirements
 
@@ -20,17 +20,17 @@ We preprocess the dataset collected by Ryu et al. (Ryu, J.Y., Kim, H.U., Lee, S.
 drug and drug–food interactions. Proceedings of the national academy of sciences
 115(18), E4304–E4311 (2018)), which includes 1,710 approved drugs and 192,284 DDIs associated with 86 DDI events. By selecting drugs that interact with other drugs and possess all four multimodal structural features, we retain 1,559 drugs and 171,141 DDIs associated with the 86 DDI events.
 . The datasets are placed in the ./data/86datasets folder. The details are as follows:
-* OurDDI Dataset.csv：The DDI Dataset.
-* S0_drug1559_train86.csv, S0_drug1559_valid86.csv, and S0_drug1559_test86.csv: The training, validation, and test datasets for the S0 setting.
-* S12_drug1559_train86.csv:The training dataset for the S1 and S2 settings.
-* S1_drug1559_similar_valid86.csv, S1_drug1559_similar_test86.csv: The validation, and test datasets for the S1 setting.
-* S2_drug1559_similar_valid86.csv, S2_drug1559_similar_test86.csv: The validation, and test datasets for the S2 setting. 
+* 86smiles.csv：includes the drug ids, DeepDDI index, index.
+* DDI_event.csv:includes all types of the ddi events.
+* S0: includes the training and validation datasets based on 5-fold cross-validation split in the S0 setting.
+* S1: includes the training and validation datasets based on 5-fold cross-validation split in the S1 setting.
+* S2: includes the training and validation datasets based on 5-fold cross-validation split in the S2 setting.
 
 In addition, we extract four types of multimodal structural features for individual drugs, including traditional Morgan and PubChem fingerprints, features extracted by the MolFormer model, and atomic-level features. These multimodal structural features are placed in the ./data/drugfeatures folder. The details are as follows:
 * drugs1559_morgen86.npy: Morgan fingerprint features.
 * drugs1559_pubchem86.npy: PubChem fingerprint features.
 * drugs1559_mol86.npy: Features extracted by the MolFormer model.
-* S0_drugs1559_alignn86.npy, S12_drugs1559_alignn86.npy:Atomic-level features.
+* S0align_cross.npy, S1align_cross.npy, and S2align_cross.npy: Atomic-level features.
   
 ## Files:
 The source code files are in the ./codes folder. The details are as follows:
