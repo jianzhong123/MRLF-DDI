@@ -19,18 +19,15 @@ In this paper, we propose a new framework named MGFF-DDI, which integrates multi
 We preprocess the dataset collected by Ryu et al. (Ryu, J.Y., Kim, H.U., Lee, S.Y.: Deep learning improves prediction of drug–
 drug and drug–food interactions. Proceedings of the national academy of sciences
 115(18), E4304–E4311 (2018)), which includes 1,710 approved drugs and 192,284 DDIs associated with 86 DDI events. By selecting drugs that interact with other drugs and possess all four multimodal structural features, we retain 1,559 drugs and 171,141 DDIs associated with the 86 DDI events.
-. The datasets are placed in the ./data/86datasets folder. The details are as follows:
-* 86smiles.csv：includes the drug ids, DeepDDI index, index.
-* DDI_event.csv:includes all types of the ddi events.
-* S0 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S0 setting.
-* S1 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S1 setting.
-* S2 folder: includes the training and validation datasets based on 5-fold cross-validation split in the S2 setting.
+. The datasets are placed in the data folder. The details are as follows:
+* 86smiles.csv：includes the drug ids, DeepDDI index, index of Ryu's dataset.
+* DDIMDL_drug_smiles569.csv：includes the drug ids, DeepDDI index, index of Deng's dataset.
+* Drugbank_DDI_event.csv: includes all types of Ryu's dataset.
+* DDIMDL_DDI_event.csv:  includes all types of Deng's dataset.
+* cross5datasets: includes the training and test datasets of Ryu's based on 5-fold cross-validation split in the S0, S1, and S2 setting.
+* Dengcross5datasets: includes the training and test datasets of Deng's based on 5-fold cross-validation split in the S0, S1, and S2 setting.
 
-In addition, we extract four types of multimodal structural features for individual drugs, including traditional Morgan and PubChem fingerprints, features extracted by the MolFormer model, and atomic-level features. These multimodal structural features are placed in the ./data/drugfeatures folder. The details are as follows:
-* drugs1559_morgen86.npy: Morgan fingerprint features.
-* drugs1559_pubchem86.npy: PubChem fingerprint features.
-* drugs1559_mol86.npy: Features extracted by the MolFormer model.
-* S0align_cross.npy, S1align_cross.npy, and S2align_cross.npy: Atomic-level features.
+In addition, we extract four types of multimodal structural features for individual drugs, including traditional Morgan and PubChem fingerprints, features extracted by the MolFormer model, and atomic-level features. These multimodal structural features are placed in the ./data/drugfeatures folder.
   
 ## Files:
 The source code files are in the ./codes folder. The details are as follows:
@@ -41,10 +38,13 @@ The source code files are in the ./codes folder. The details are as follows:
   
 ## Running the code
 
-The parameters are already set in the code files. You can run the following command to re-implement our work:
+The parameters are already set in the code files. You can run the following command to re-implement our work based on Ryu's dataset:
 
 * > python Gridsearch_cross5_final_train_S0_86.py #Gridsearch_cross5_final_train_S1_86.py, Gridsearch_cross5_final_train_S2_86.py
-
+  > 
+You can run the following command to re-implement our work based on Ryu's dataset:
+* > python Gridsearch_cross5_final_train_S0_Deng.py #Gridsearch_cross5_final_train_S1_Deng.py, Gridsearch_cross5_final_train_S2_Deng.py
+  > 
 ## Contact
 
 If you have any questions or suggestions with the code, please let us know. Contact Zhong Jian at jianzhong@csu.edu.cn
