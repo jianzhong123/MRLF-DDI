@@ -41,10 +41,11 @@ The source code files are in the ./codes folder. The details are as follows:
 The parameters are already set in the code files. You can run the following command to re-implement our work based on Ryu's dataset:
 
 * > python Gridsearch_cross5_final_train_S0_86.py #Gridsearch_cross5_final_train_S1_86.py, Gridsearch_cross5_final_train_S2_86.py
-  > 
+  >
+  
 You can run the following command to re-implement our work based on Ryu's dataset:
-* > python Gridsearch_cross5_final_train_S0_Deng.py #Gridsearch_cross5_final_train_S1_Deng.py, Gridsearch_cross5_final_train_S2_Deng.py
-  > 
+* > python Gridsearch_cross5_final_train_S0_Deng.py # Gridsearch_cross5_final_train_S1_Deng.py, Gridsearch_cross5_final_train_S2_Deng.py
+
 ## Contact
 
 If you have any questions or suggestions with the code, please let us know. Contact Zhong Jian at jianzhong@csu.edu.cn
