@@ -1,0 +1,66 @@
+Index,Event name
+1,The metabolism of drug A can be decreased when combined with drug B.
+2,The risk or severity of adverse effects can be increased when drug A is combined with drug B.
+3,The serum concentration of drug A can be increased when it is combined with drug B.
+4,The serum concentration of drug A can be decreased when it is combined with drug B.
+5,The therapeutic efficacy of drug A can be decreased when used in combination with drug B.
+6,Drug B may increase the central nervous system depressant ( CNS depressant ) activities of drug A.
+7,Drug B may increase the QTc-prolonging activities of drug A.
+8,Drug B may increase the hypotensive activities of drug A.
+9,The metabolism of drug A can be increased when combined with drug B.
+10,Drug B may decrease the antihypertensive activities of drug A.
+11,Drug B may increase the hypoglycemic activities of drug A.
+12,Drug B may increase the anticoagulant activities of drug A.
+13,The serum concentration of the active metabolites of drug A can be increased when drug A is used in combination with drug B.
+14,Drug B may increase the bradycardic activities of drug A.
+15,Drug B may increase the serotonergic activities of drug A.
+16,The therapeutic efficacy of drug A can be increased when used in combination with drug B.
+17,Drug B may increase the hypokalemic activities of drug A.
+18,Drug B may increase the orthostatic hypotensive activities of drug A.
+19,Drug B may decrease the cardiotoxic activities of drug A.
+20,Drug B may decrease the excretion rate of drug A which could result in a higher serum level.
+21,Drug B may increase the atrioventricular blocking ( AV block ) activities of drug A.
+22,Drug B may decrease the sedative activities of drug A.
+23,Drug B may increase the tachycardic activities of drug A.
+24,Drug B may increase the hypertensive and vasoconstricting activities of drug A.
+25,The risk or severity of QTc prolongation can be increased when drug A is combined with drug B.
+26,Drug B may increase the antihypertensive activities of drug A.
+27,Drug B may increase the arrhythmogenic activities of drug A.
+28,Drug B may increase the cardiotoxic activities of drug A.
+29,The risk or severity of hypotension can be increased when drug A is combined with drug B.
+30,Drug B may decrease the bronchodilatory activities of drug A.
+31,Drug B may increase the hyperkalemic activities of drug A.
+32,Drug B may increase the nephrotoxic activities of drug A.
+33,Drug B may increase the hypertensive activities of drug A.
+34,Drug B may increase the vasoconstricting activities of drug A.
+35,Drug B may increase the neuroexcitatory activities of drug A.
+36,Drug B may decrease the anticoagulant activities of drug A.
+37,Drug B may increase the fluid retaining activities of drug A.
+38,Drug B may increase the antiplatelet activities of drug A.
+39,The serum concentration of the active metabolites of drug A can be reduced when drug B is used in combination with drug resulting in a loss in efficacy.
+40,Drug B may increase the immunosuppressive activities of drug A.
+41,The risk or severity of bleeding can be increased when drug A is combined with drug B.
+42,Drug B may decrease the stimulatory activities of drug A.
+43,The risk or severity of myelosuppression can be increased when drug A is combined with drug B.
+44,Drug B may decrease the vasoconstricting activities of drug A.
+45,Drug B may increase the thrombogenic activities of drug A.
+46,Drug B may increase the analgesic activities of drug A.
+47,Drug B may increase the anticholinergic activities of drug A.
+48,Drug B can cause an increase in the absorption of drug A resulting in an increased serum concentration and potentially a worsening of adverse effects.
+49,The risk or severity of sedation and somnolence can be increased when drug A is combined with drug B.
+50,The risk or severity of rhabdomyolysis can be increased when drug A is combined with drug B.
+51,The risk or severity of hyperkalemia can be increased when drug A is combined with drug B.
+52,Drug B may increase the hepatotoxic activities of drug A.
+53,Drug B may increase the myopathic rhabdomyolysis activities of drug A.
+54,Drug B may increase the respiratory depressant activities of drug A.
+55,Drug B can cause a decrease in the absorption of drug A resulting in a reduced serum concentration and potentially a decrease in efficacy.
+56,Drug B may increase the hyponatremic activities of drug A.
+57,Drug B may increase the vasopressor activities of drug A.
+58,The risk or severity of myopathy and rhabdomyolysis can be increased when drug A is combined with drug B.
+59,Drug B may increase the excretion rate of drug A which could result in a higher serum level.
+60,Drug B may decrease the neuromuscular blocking activities of drug A.
+61,The risk of a hypersensitivity reaction to drug A is increased when it is combined with drug B.
+62,Drug B may increase the hyperglycemic activities of drug A.
+63,Drug B may increase the hypocalcemic activities of drug A.
+64,Drug B may increase the myelosuppressive activities of drug A.
+65,Drug B may increase the vasodilatory activities of drug A.
