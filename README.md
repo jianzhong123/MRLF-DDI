@@ -1,10 +1,10 @@
-# KG-CLDDI
+# MRLF-DDI
 
 ## Overview
 
-This repository contains source code for our paper "MGFF-DDI: A Multi-granularity Feature Fusion Framework for Drug-Drug Interaction Event Prediction via Multi-Relational GNN and Cross Strategy".
+This repository contains source code for our paper "MRLF-DDI: A Multi-view Representation Learning Framework for Drug-Drug Interaction Event Prediction".
 
-In this paper, we propose a new framework named MGFF-DDI, which integrates multi-granularity features derived from individual drugs, drug-drug pairs, and the DDI event graph to improve the accuracy of DDI event prediction. 
+In this paper, we propose MRLF-DDI, a multi-view representation learning framework for DDI event prediction. MRLF-DDI extracts features from three distinct views: individual drugs, drug–drug pairs, and the DDI graph. Notably, we introduce atomic-level drug features combined with bond-angle information for the first time in DDI event prediction.  
 
 ## Requirements
 
